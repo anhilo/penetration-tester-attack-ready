@@ -601,7 +601,6 @@ sudo git clone https://github.com/zerosum0x0/koadic.git
 sudo git clone https://github.com/Mr-Un1k0d3r/ThunderShell.git
 sudo git clone https://github.com/Ne0nd0g/merlin.git
 sudo git clone https://github.com/Arno0x/WebDavC2.git
-sudo git clone https://github.com/malwaredllc/.git
 sudo git clone https://github.com/byt3bl33d3r/SILENTTRINITY.git
 sudo git clone https://github.com/Arno0x/WSC2.git
 sudo git clone https://github.com/BC-SECURITY/Empire.git

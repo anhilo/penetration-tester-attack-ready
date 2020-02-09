@@ -1,5 +1,5 @@
 #!/bin/bash
-filename='aptlist.txt'
+filename='repositories.txt'
 echo Start
 while read p; do 
     $p
