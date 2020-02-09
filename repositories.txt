@@ -47,7 +47,9 @@ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/t
   chmod 755 msfinstall && \
   ./msfinstall
   
-cd /opt/
+echo Installing Tools 
+sudo mkdir /opt/Tools/
+cd /opt/Tools/
 sudo git clone https://github.com/SecureAuthCorp/impacket.git
 sudo git clone https://github.com/wi-fi-analyzer/fluxion.git
 sudo git clone https://github.com/balle/bluediving.git 
