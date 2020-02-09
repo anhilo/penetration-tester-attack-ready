@@ -829,9 +829,6 @@ sudo git clone https://github.com/mzfr/liffy.git
 echo MondoDB Redis Couchdb Exploitation
 sudo git clone https://github.com/torque59/Nosql-Exploitation-Framework.git
 
-echo Elasticsearch / Kibana Exploitation
-sudo git clone https://github.com/0xbug/Biu-framework.git
-
 echo RMI attacks
 sudo git clone https://github.com/NickstaDB/BaRMIe.git
 
