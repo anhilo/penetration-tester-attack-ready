@@ -43,10 +43,6 @@ sudo apt-get install pyrit -y
 sudo apt-get install openvas -y 
 sudo apt-get install veil -y
 
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
-  chmod 755 msfinstall && \
-  ./msfinstall
-  
 echo Installing Tools 
 sudo mkdir /opt/Tools/
 cd /opt/Tools/
