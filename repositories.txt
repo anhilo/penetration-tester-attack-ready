@@ -1,6 +1,9 @@
+echo Updating Distribution 
 sudo apt-get install kali-linux-full -y
 sudo apt-get update && apt-get dist-upgrade -y 
+sudo apt-get upgrade 
 
+echo Installing Convenient Applications 
 sudo apt-get install terminator -y
 sudo apt-get install armitage -y
 sudo apt-get install seclists -y
