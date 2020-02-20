@@ -7,8 +7,8 @@ An automated installation of well-known repositories in order to attack target
 
 ### Usage:
 ```
-$ git clone https://github.com/isee2it/penetration-tester-attack-ready.git
-$ cd penetration-tester-attack-ready
-$ chmod 755 install.sh
-$ ./install.sh 
+git clone https://github.com/isee2it/penetration-tester-attack-ready.git
+cd penetration-tester-attack-ready
+chmod 755 install.sh
+./install.sh 
 ```
