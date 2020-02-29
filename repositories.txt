@@ -918,9 +918,10 @@ echo Cleaning the cache:
 sudo apt-get clean --dry-run
 
 echo Removing files from cache
-del /var/cache/apt/archives/* /var/cache/apt/archives/partial/*
-del /var/lib/apt/lists/partial/*
-del /var/cache/apt/pkgcache.bin /var/cache/apt/srcpkgcache.bin
+rm -r /var/cache/apt/archives/* /var/cache/apt/archives/partial/*
+rm -r /var/lib/apt/lists/partial/*
+rm -r /var/cache/apt/pkgcache.bin 
+rm -r /var/cache/apt/srcpkgcache.bin
 
 echo Checking to see if it's still needs cleaning
 sudo apt-get clean
