@@ -912,6 +912,7 @@ sudo git clone https://github.com/trustedsec/physical-docs.git
 
 echo Performing just one more update check:
 sudo apt-get update -y
+sudo apt-get upgrade -y 
 
 echo Cleaning the cache: 
 sudo apt-get clean --dry-run
