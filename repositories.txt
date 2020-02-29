@@ -1,7 +1,7 @@
 echo Updating Distribution 
 sudo apt-get install kali-linux-full -y
 sudo apt-get update && apt-get dist-upgrade -y 
-sudo apt-get upgrade 
+sudo apt-get upgrade -y 
 
 echo Installing Convenient Applications 
 sudo apt-get install terminator -y
@@ -910,3 +910,34 @@ sudo git clone https://github.com/We5ter/Scanners-Box.git
 sudo git clone https://github.com/smgorelik/Windows-RCE-exploits.git
 sudo git clone https://github.com/trustedsec/physical-docs.git
 
+sudo apt-get update -y
+sudo apt-get clean --dry-run
+del /var/cache/apt/archives/* /var/cache/apt/archives/partial/*
+del /var/lib/apt/lists/partial/*
+del /var/cache/apt/pkgcache.bin /var/cache/apt/srcpkgcache.bin
+
+sudo apt-get clean
+sudo apt-get autoclean 
+sudo apt-get autoremove 
+
+ls -l /opt/ 
+
+echo 
+echo Syn
+echo
+echo The script has ended. You're up-2-date and the Hacking Software is installed in /opt/
+echo Use ls -l /opt/ to see the categories. 
+echo
+echo Ack
+echo 
+echo Best regards,
+echo Martijn Kamminga
+echo
+echo Fin
+echo 
+echo https://www.twitter.com/InfoSecISee2it
+echo https://www.linkedin.com/in/martijnkamminga/
+echo https://www.hackthebox.eu/profile/201424
+echo https://www.isee2it.nl 
+echo 
+echo Rst
