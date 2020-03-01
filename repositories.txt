@@ -932,25 +932,25 @@ echo
 echo Creating Links on Desktop for some awesome resources
 sudo mkdir /opt/awesome-webpages
 cd /opt/awesome-webpages
-echo 'https://github.com/jivoi/awesome-osint' > jivoi-awesome-osint.link 
-echo 'https://github.com/v2-dev/awesome-social-engineering' > awesome-social-engineering.iink
-echo 'https://github.com/rootedshell/awesome-social-engineering' > rootedshell-awesome-social-engineering.link
-echo 'https://github.com/infosecn1nja/Red-Teaming-Toolkit' > red-teaming-toolkit.link
-echo 'https://github.com/yeyintminthuhtut/Awesome-Red-Teaming' > awesome-red-teaming.link
-echo 'https://github.com/outflanknl/RedELK' > red-team-infrastructure.link
-echo 'https://github.com/enaqx/awesome-pentest' > enaqx-awesome-pentest.link 
-echo 'https://github.com/jekil/awesome-hacking' > jekil-awesome-hacking.link 
-echo 'https://github.com/carpedm20/awesome-hacking' > carpedm20-awesome-hacking.link 
-echo 'https://github.com/Hack-with-Github/Awesome-Hacking' Hack-with-Github-Awesome-Hacking.link 
-echo 'https://github.com/vitalysim/Awesome-Hacking-Resources' awesome-hacking-resources.link 
-echo 'https://github.com/husnainfareed/Awesome-Ethical-Hacking-Resources' awesome-ethical-hacking-resources.link
-echo 'https://github.com/tylerha97/awesome-reversing' > awesome-reversing.link
-echo 'https://github.com/Cugu/awesome-forensics' > awesome-forensics.link 
-echo 'https://github.com/decalage2/awesome-security' > awesome-security.link 
-echo 'https://github.com/decalage2/awesome-security-hardening' > awesome-security-hardening.link 
-echo 'https://github.com/meitar/awesome-cybersecurity-blueteam' > awesome-cybersecurity-blueteam.link
-echo 'https://github.com/n0dec/MalwLess' > blue-team-defense-testing.link 
-echo 'https://github.com/praetorian-code/purple-team-attack-automation' > purple-team-attack-automation.link 
+echo 'https://github.com/jivoi/awesome-osint' > /opt/awesome-webpages/jivoi-awesome-osint.link 
+echo 'https://github.com/v2-dev/awesome-social-engineering' > /opt/awesome-webpages/awesome-social-engineering.Link
+echo 'https://github.com/rootedshell/awesome-social-engineering' > /opt/awesome-webpages/rootedshell-awesome-social-engineering.link
+echo 'https://github.com/infosecn1nja/Red-Teaming-Toolkit' > /opt/awesome-webpages/red-teaming-toolkit.link
+echo 'https://github.com/yeyintminthuhtut/Awesome-Red-Teaming' > /opt/awesome-webpages/awesome-red-teaming.link
+echo 'https://github.com/outflanknl/RedELK' > /opt/awesome-webpages/red-team-infrastructure.link
+echo 'https://github.com/enaqx/awesome-pentest' > /opt/awesome-webpages/enaqx-awesome-pentest.link 
+echo 'https://github.com/jekil/awesome-hacking' > /opt/awesome-webpages/jekil-awesome-hacking.link 
+echo 'https://github.com/carpedm20/awesome-hacking' > /opt/awesome-webpages/carpedm20-awesome-hacking.link 
+echo 'https://github.com/Hack-with-Github/Awesome-Hacking' /opt/awesome-webpages/Hack-with-Github-Awesome-Hacking.link 
+echo 'https://github.com/vitalysim/Awesome-Hacking-Resources' /opt/awesome-webpages/awesome-hacking-resources.link 
+echo 'https://github.com/husnainfareed/Awesome-Ethical-Hacking-Resources' /opt/awesome-webpages/awesome-ethical-hacking-resources.link
+echo 'https://github.com/tylerha97/awesome-reversing' > /opt/awesome-webpages/awesome-reversing.link
+echo 'https://github.com/Cugu/awesome-forensics' > /opt/awesome-webpages/awesome-forensics.link 
+echo 'https://github.com/decalage2/awesome-security' > /opt/awesome-webpages/awesome-security.link 
+echo 'https://github.com/decalage2/awesome-security-hardening' > /opt/awesome-webpages/awesome-security-hardening.link 
+echo 'https://github.com/meitar/awesome-cybersecurity-blueteam' > /opt/awesome-webpages/awesome-cybersecurity-blueteam.link
+echo 'https://github.com/n0dec/MalwLess' > /opt/awesome-webpages/blue-team-defense-testing.link 
+echo 'https://github.com/praetorian-code/purple-team-attack-automation' > /opt/awesome-webpages/purple-team-attack-automation.link 
 sudo chmod +x /opt/awesome-webpages/*.link
 echo 
 echo 
