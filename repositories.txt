@@ -952,14 +952,17 @@ echo 'https://github.com/meitar/awesome-cybersecurity-blueteam' > awesome-cybers
 echo 'https://github.com/n0dec/MalwLess' > blue-team-defense-testing.link 
 echo 'https://github.com/praetorian-code/purple-team-attack-automation' > purple-team-attack-automation.link 
 chmod +x /opt/awesome-webpages/*.link
-
+echo 
+echo 
 echo Listing the hyperlinks created
 echo Hyperlinks created in  ~/Desktop/awesome-webpages
 ls -l /opt/awesome-webpages/*
-
+echo 
+echo 
 echo Listing the optional software directory
 ls -l /opt/ 
-
+echo
+echo 
 echo Scroll back to see the latest output
 echo 
 echo Syn
