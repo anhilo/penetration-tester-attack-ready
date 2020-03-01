@@ -11,7 +11,6 @@ sudo apt-get install hostapd -y
 sudo apt-get install lighthttpd -y
 sudo apt-get install php-cgi -y
 sudo apt-get install pyrit -y
-sudo apt-get install snort -y
 sudo apt-get install synaptic -y
 sudo apt-get install at -y
 sudo apt-get install python3-pip -y
@@ -910,9 +909,9 @@ sudo git clone https://github.com/We5ter/Scanners-Box.git
 sudo git clone https://github.com/smgorelik/Windows-RCE-exploits.git
 sudo git clone https://github.com/trustedsec/physical-docs.git
 
-echo Performing just one more update check:
-sudo apt-get update -y
-sudo apt-get upgrade -y 
+echo Installing Interactive Applications: snort
+echo Almost done! Please hold:
+sudo apt-get install snort -y
 
 echo Cleaning the cache: 
 sudo apt-get clean --dry-run
