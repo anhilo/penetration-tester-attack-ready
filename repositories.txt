@@ -931,7 +931,7 @@ echo
 
 echo Creating Links on Desktop for some awesome resources
 sudo mkdir /opt/awesome-webpages
-cd /opt/awesome-webpages
+cd /opt/awesome-webpages/
 sudo echo 'https://github.com/jivoi/awesome-osint' > /opt/awesome-webpages/awesome-osint-jivoi.link 
 sudo echo 'https://github.com/v2-dev/awesome-social-engineering' > /opt/awesome-webpages/awesome-social-engineering.Link
 sudo echo 'https://github.com/rootedshell/awesome-social-engineering' > /opt/awesome-webpages/awesome-social-engineering=rootedshell.link
