@@ -932,16 +932,16 @@ echo
 echo Creating Links on Desktop for some awesome resources
 sudo mkdir /opt/awesome-webpages
 cd /opt/awesome-webpages
-echo 'https://github.com/jivoi/awesome-osint' > /opt/awesome-webpages/jivoi-awesome-osint.link 
+echo 'https://github.com/jivoi/awesome-osint' > /opt/awesome-webpages/awesome-osint-jivoi.link 
 echo 'https://github.com/v2-dev/awesome-social-engineering' > /opt/awesome-webpages/awesome-social-engineering.Link
-echo 'https://github.com/rootedshell/awesome-social-engineering' > /opt/awesome-webpages/rootedshell-awesome-social-engineering.link
+echo 'https://github.com/rootedshell/awesome-social-engineering' > /opt/awesome-webpages/awesome-social-engineering=rootedshell.link
 echo 'https://github.com/infosecn1nja/Red-Teaming-Toolkit' > /opt/awesome-webpages/red-teaming-toolkit.link
 echo 'https://github.com/yeyintminthuhtut/Awesome-Red-Teaming' > /opt/awesome-webpages/awesome-red-teaming.link
 echo 'https://github.com/outflanknl/RedELK' > /opt/awesome-webpages/red-team-infrastructure.link
-echo 'https://github.com/enaqx/awesome-pentest' > /opt/awesome-webpages/enaqx-awesome-pentest.link 
-echo 'https://github.com/jekil/awesome-hacking' > /opt/awesome-webpages/jekil-awesome-hacking.link 
-echo 'https://github.com/carpedm20/awesome-hacking' > /opt/awesome-webpages/carpedm20-awesome-hacking.link 
-echo 'https://github.com/Hack-with-Github/Awesome-Hacking' /opt/awesome-webpages/Hack-with-Github-Awesome-Hacking.link 
+echo 'https://github.com/enaqx/awesome-pentest' > /opt/awesome-webpages/awesome-pentestenaqx.link 
+echo 'https://github.com/jekil/awesome-hacking' > /opt/awesome-webpages/awesome-hacking-jekil.link 
+echo 'https://github.com/carpedm20/awesome-hacking' > /opt/awesome-webpages/awesome-hacking-carpedm20.link 
+echo 'https://github.com/Hack-with-Github/Awesome-Hacking' /opt/awesome-webpages/Awesome-Hacking-Hack-with-Github.link 
 echo 'https://github.com/vitalysim/Awesome-Hacking-Resources' /opt/awesome-webpages/awesome-hacking-resources.link 
 echo 'https://github.com/husnainfareed/Awesome-Ethical-Hacking-Resources' /opt/awesome-webpages/awesome-ethical-hacking-resources.link
 echo 'https://github.com/tylerha97/awesome-reversing' > /opt/awesome-webpages/awesome-reversing.link
