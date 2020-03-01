@@ -932,30 +932,30 @@ echo
 echo Creating Links on Desktop for some awesome resources
 sudo mkdir /opt/awesome-webpages
 cd /opt/awesome-webpages
-echo 'https://github.com/jivoi/awesome-osint' > /opt/awesome-webpages/awesome-osint-jivoi.link 
-echo 'https://github.com/v2-dev/awesome-social-engineering' > /opt/awesome-webpages/awesome-social-engineering.Link
-echo 'https://github.com/rootedshell/awesome-social-engineering' > /opt/awesome-webpages/awesome-social-engineering=rootedshell.link
-echo 'https://github.com/infosecn1nja/Red-Teaming-Toolkit' > /opt/awesome-webpages/red-teaming-toolkit.link
-echo 'https://github.com/yeyintminthuhtut/Awesome-Red-Teaming' > /opt/awesome-webpages/awesome-red-teaming.link
-echo 'https://github.com/outflanknl/RedELK' > /opt/awesome-webpages/red-team-infrastructure.link
-echo 'https://github.com/enaqx/awesome-pentest' > /opt/awesome-webpages/awesome-pentestenaqx.link 
-echo 'https://github.com/jekil/awesome-hacking' > /opt/awesome-webpages/awesome-hacking-jekil.link 
-echo 'https://github.com/carpedm20/awesome-hacking' > /opt/awesome-webpages/awesome-hacking-carpedm20.link 
-echo 'https://github.com/Hack-with-Github/Awesome-Hacking' /opt/awesome-webpages/Awesome-Hacking-Hack-with-Github.link 
-echo 'https://github.com/vitalysim/Awesome-Hacking-Resources' /opt/awesome-webpages/awesome-hacking-resources.link 
-echo 'https://github.com/husnainfareed/Awesome-Ethical-Hacking-Resources' /opt/awesome-webpages/awesome-ethical-hacking-resources.link
-echo 'https://github.com/tylerha97/awesome-reversing' > /opt/awesome-webpages/awesome-reversing.link
-echo 'https://github.com/Cugu/awesome-forensics' > /opt/awesome-webpages/awesome-forensics.link 
-echo 'https://github.com/decalage2/awesome-security' > /opt/awesome-webpages/awesome-security.link 
-echo 'https://github.com/decalage2/awesome-security-hardening' > /opt/awesome-webpages/awesome-security-hardening.link 
-echo 'https://github.com/meitar/awesome-cybersecurity-blueteam' > /opt/awesome-webpages/awesome-cybersecurity-blueteam.link
-echo 'https://github.com/n0dec/MalwLess' > /opt/awesome-webpages/blue-team-defense-testing.link 
-echo 'https://github.com/praetorian-code/purple-team-attack-automation' > /opt/awesome-webpages/purple-team-attack-automation.link 
+sudo echo 'https://github.com/jivoi/awesome-osint' > /opt/awesome-webpages/awesome-osint-jivoi.link 
+sudo echo 'https://github.com/v2-dev/awesome-social-engineering' > /opt/awesome-webpages/awesome-social-engineering.Link
+sudo echo 'https://github.com/rootedshell/awesome-social-engineering' > /opt/awesome-webpages/awesome-social-engineering=rootedshell.link
+sudo echo 'https://github.com/infosecn1nja/Red-Teaming-Toolkit' > /opt/awesome-webpages/red-teaming-toolkit.link
+sudo echo 'https://github.com/yeyintminthuhtut/Awesome-Red-Teaming' > /opt/awesome-webpages/awesome-red-teaming.link
+sudo echo 'https://github.com/outflanknl/RedELK' > /opt/awesome-webpages/red-team-infrastructure.link
+sudo echo 'https://github.com/enaqx/awesome-pentest' > /opt/awesome-webpages/awesome-pentestenaqx.link 
+sudo echo 'https://github.com/jekil/awesome-hacking' > /opt/awesome-webpages/awesome-hacking-jekil.link 
+sudo echo 'https://github.com/carpedm20/awesome-hacking' > /opt/awesome-webpages/awesome-hacking-carpedm20.link 
+sudo echo 'https://github.com/Hack-with-Github/Awesome-Hacking' /opt/awesome-webpages/Awesome-Hacking-Hack-with-Github.link 
+sudo echo 'https://github.com/vitalysim/Awesome-Hacking-Resources' /opt/awesome-webpages/awesome-hacking-resources.link 
+sudo echo 'https://github.com/husnainfareed/Awesome-Ethical-Hacking-Resources' /opt/awesome-webpages/awesome-ethical-hacking-resources.link
+sudo echo 'https://github.com/tylerha97/awesome-reversing' > /opt/awesome-webpages/awesome-reversing.link
+sudo echo 'https://github.com/Cugu/awesome-forensics' > /opt/awesome-webpages/awesome-forensics.link 
+sudo echo 'https://github.com/decalage2/awesome-security' > /opt/awesome-webpages/awesome-security.link 
+sudo echo 'https://github.com/decalage2/awesome-security-hardening' > /opt/awesome-webpages/awesome-security-hardening.link 
+sudo echo 'https://github.com/meitar/awesome-cybersecurity-blueteam' > /opt/awesome-webpages/awesome-cybersecurity-blueteam.link
+sudo echo 'https://github.com/n0dec/MalwLess' > /opt/awesome-webpages/blue-team-defense-testing.link 
+sudo echo 'https://github.com/praetorian-code/purple-team-attack-automation' > /opt/awesome-webpages/purple-team-attack-automation.link 
 sudo chmod +x /opt/awesome-webpages/*.link
 echo 
 echo 
 echo Listing the hyperlinks created
-echo Hyperlinks created in  ~/Desktop/awesome-webpages
+echo Hyperlinks created in  /opt/awesome-webpages/
 ls -l /opt/awesome-webpages/*
 echo 
 echo 
