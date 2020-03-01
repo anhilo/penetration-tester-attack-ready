@@ -930,7 +930,7 @@ echo Cleaned-up cached repository
 echo
 
 echo Creating Links on Desktop for some awesome resources
-mkdir ~/Desktop/awesome-webpages
+sudo mkdir ~/Desktop/awesome-webpages
 cd ~/Desktop/awesome-webpages
 echo 'https://github.com/jivoi/awesome-osint' > jivoi-awesome-osint.link 
 echo 'https://github.com/v2-dev/awesome-social-engineering' > awesome-social-engineering.iink
