@@ -926,6 +926,36 @@ echo Checking to see if it's still needs cleaning
 sudo apt-get clean
 sudo apt-get autoclean 
 sudo apt-get autoremove 
+echo Cleaned-up cached repository
+echo
+
+echo Creating Links on Desktop for some awesome resources
+mkdir ~/Desktop/awesome-webpages
+cd ~/Desktop/awesome-webpages
+echo 'https://github.com/jivoi/awesome-osint' > jivoi-awesome-osint.link 
+echo 'https://github.com/v2-dev/awesome-social-engineering' > awesome-social-engineering.iink
+echo 'https://github.com/rootedshell/awesome-social-engineering' > rootedshell-awesome-social-engineering.link
+echo 'https://github.com/infosecn1nja/Red-Teaming-Toolkit' > red-teaming-toolkit.link
+echo 'https://github.com/yeyintminthuhtut/Awesome-Red-Teaming' > awesome-red-teaming.link
+echo 'https://github.com/outflanknl/RedELK' > red-team-infrastructure.link
+echo 'https://github.com/enaqx/awesome-pentest' > enaqx-awesome-pentest.link 
+echo 'https://github.com/jekil/awesome-hacking' > jekil-awesome-hacking.link 
+echo 'https://github.com/carpedm20/awesome-hacking' > carpedm20-awesome-hacking.link 
+echo 'https://github.com/Hack-with-Github/Awesome-Hacking' Hack-with-Github-Awesome-Hacking.link 
+echo 'https://github.com/vitalysim/Awesome-Hacking-Resources' awesome-hacking-resources.link 
+echo 'https://github.com/husnainfareed/Awesome-Ethical-Hacking-Resources' awesome-ethical-hacking-resources.link
+echo 'https://github.com/tylerha97/awesome-reversing' > awesome-reversing.link
+echo 'https://github.com/Cugu/awesome-forensics' > awesome-forensics.link 
+echo 'https://github.com/decalage2/awesome-security' > awesome-security.link 
+echo 'https://github.com/decalage2/awesome-security-hardening' > awesome-security-hardening.link 
+echo 'https://github.com/meitar/awesome-cybersecurity-blueteam' > awesome-cybersecurity-blueteam.link
+echo 'https://github.com/n0dec/MalwLess' > blue-team-defense-testing.link 
+echo 'https://github.com/praetorian-code/purple-team-attack-automation' > purple-team-attack-automation.link 
+chmod +x ~/Desktop/awesome-webpages/*.link
+
+echo Listing the hyperlinks created
+echo Hyperlinks created in  ~/Desktop/awesome-webpages
+ls -l ~/Desktop/awesome-webpages/*
 
 echo Listing the optional software directory
 ls -l /opt/ 
@@ -944,7 +974,7 @@ echo
 echo Fin
 echo 
 echo https://www.twitter.com/InfoSecISee2it
-echo https://www.linkedin.com/in/martijnkamminga/
+echo https://www.linkedin.com/in/martijnkamminga
 echo https://www.hackthebox.eu/profile/201424
 echo https://www.isee2it.nl 
 echo 
