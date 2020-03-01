@@ -928,39 +928,9 @@ sudo apt-get autoclean
 sudo apt-get autoremove 
 echo Cleaned-up cached repository
 echo
-
-sudo mkdir /opt/awesome-webpages
-cd /opt/awesome-webpages/
-sudo echo 'https://github.com/jivoi/awesome-osint' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/v2-dev/awesome-social-engineering'>> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/rootedshell/awesome-social-engineering' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/infosecn1nja/Red-Teaming-Toolkit' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/yeyintminthuhtut/Awesome-Red-Teaming' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/outflanknl/RedELK' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/enaqx/awesome-pentest' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/jekil/awesome-hacking' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/carpedm20/awesome-hacking' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/Hack-with-Github/Awesome-Hacking' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/vitalysim/Awesome-Hacking-Resources' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/husnainfareed/Awesome-Ethical-Hacking-Resources' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/tylerha97/awesome-reversing'>> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/Cugu/awesome-forensics'>> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/decalage2/awesome-security' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/decalage2/awesome-security-hardening' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/meitar/awesome-cybersecurity-blueteam' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/n0dec/MalwLess' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-sudo echo 'https://github.com/praetorian-code/purple-team-attack-automation' >> /opt/awesome-webpages/aweseome-resources-on-github.txt 
-echo 
-echo 
-echo aweseome resources text file created in  /opt/awesome-webpages/
-ls -l  /opt/awesome-webpages/aweseome-resources-on-github.txt 
-echo 
 echo 
 echo Listing the optional software directory
 ls -l /opt/ 
-echo
-echo 
-echo Scroll back to see the latest output
 echo 
 echo Syn
 echo
