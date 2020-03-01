@@ -930,8 +930,8 @@ echo Cleaned-up cached repository
 echo
 
 echo Creating Links on Desktop for some awesome resources
-sudo mkdir ~/Desktop/awesome-webpages
-cd ~/Desktop/awesome-webpages
+sudo mkdir /opt/awesome-webpages
+cd /opt/awesome-webpages
 echo 'https://github.com/jivoi/awesome-osint' > jivoi-awesome-osint.link 
 echo 'https://github.com/v2-dev/awesome-social-engineering' > awesome-social-engineering.iink
 echo 'https://github.com/rootedshell/awesome-social-engineering' > rootedshell-awesome-social-engineering.link
@@ -951,15 +951,16 @@ echo 'https://github.com/decalage2/awesome-security-hardening' > awesome-securit
 echo 'https://github.com/meitar/awesome-cybersecurity-blueteam' > awesome-cybersecurity-blueteam.link
 echo 'https://github.com/n0dec/MalwLess' > blue-team-defense-testing.link 
 echo 'https://github.com/praetorian-code/purple-team-attack-automation' > purple-team-attack-automation.link 
-chmod +x ~/Desktop/awesome-webpages/*.link
+chmod +x /opt/awesome-webpages/*.link
 
 echo Listing the hyperlinks created
 echo Hyperlinks created in  ~/Desktop/awesome-webpages
-ls -l ~/Desktop/awesome-webpages/*
+ls -l /opt/awesome-webpages/*
 
 echo Listing the optional software directory
 ls -l /opt/ 
 
+echo Scroll back to see the latest output
 echo 
 echo Syn
 echo
