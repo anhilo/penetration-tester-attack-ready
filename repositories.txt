@@ -5,6 +5,7 @@ sudo apt-get upgrade -y
 
 echo Installing Convenient Applications 
 sudo apt-get install terminator -y
+sudo apt-get install tilix
 sudo apt-get install armitage -y
 sudo apt-get install seclists -y
 sudo apt-get install hostapd -y
@@ -908,6 +909,30 @@ sudo git clone https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE.git
 sudo git clone https://github.com/We5ter/Scanners-Box.git
 sudo git clone https://github.com/smgorelik/Windows-RCE-exploits.git
 sudo git clone https://github.com/trustedsec/physical-docs.git
+
+echo Preparing the Webserver 
+
+mkdir /var/www/html/pub
+cd /var/www/html/pub
+
+wget https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/raw/master/linPEAS/linpeas.sh
+wget https://github.com/mzet-/linux-exploit-suggester/blob/master/linux-exploit-suggester.sh
+wget https://github.com/1N3/PrivEsc/raw/master/linux/scripts/linux_privesc.sh
+wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy32
+wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy64
+wget https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/blob/master/winPEAS/winPEASexe/winPEAS/bin/Obfuscated%20Releases/winPEASany.exe
+wget https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/blob/master/winPEAS/winPEASexe/winPEAS/bin/Obfuscated%20Releases/winPEASx64.exe
+wget https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/blob/master/winPEAS/winPEASexe/winPEAS/bin/Obfuscated%20Releases/winPEASx86.exe
+wget https://github.com/BloodHoundAD/BloodHound/blob/master/Ingestors/SharpHound.exe
+wget https://github.com/BloodHoundAD/BloodHound/blob/master/Ingestors/SharpHound.ps1
+wget https://github.com/PowerShellMafia/PowerSploit/raw/master/Privesc/PowerUp.ps1
+wget https://eternallybored.org/misc/netcat/netcat-win32-1.11.zip
+unzip netcat-win32-1.11.zip
+cp netcat-1.11/nc.exe .
+cp netcat-1.11/nc64.exe .
+cp /usr/share/webshells/aspx/cmdasp.aspx /var/www/html/pub
+cp /usr/share/webshells/php/php-reverse-shell.php /var/www/html/pub/
+echo Edit File: nano php-reverse-shell.php For Remote Connection: IP & Port
 
 echo Installing Interactive Applications: snort
 echo Almost done! Please hold:
