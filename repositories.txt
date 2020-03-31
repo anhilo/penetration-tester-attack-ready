@@ -926,6 +926,7 @@ wget https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/r
 wget https://github.com/BloodHoundAD/BloodHound/blob/master/Ingestors/SharpHound.exe
 wget https://github.com/BloodHoundAD/BloodHound/blob/master/Ingestors/SharpHound.ps1
 wget https://github.com/PowerShellMafia/PowerSploit/raw/master/Privesc/PowerUp.ps1
+wget https://0xprashant.github.io/pages/hashdump.exe
 wget https://eternallybored.org/misc/netcat/netcat-win32-1.11.zip
 unzip netcat-win32-1.11.zip
 cp netcat-1.11/nc.exe .
